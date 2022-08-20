@@ -27,7 +27,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: green;
+    background: #117d11;
+    flex-direction: column;
 }
 
 .card {
@@ -52,4 +53,19 @@ body {
 
 .symbol:last-of-type {
   align-self: flex-end;
+}
+
+.shuffle {
+  border: 4px solid #ad323f;
+  border-radius: 4px;
+  background: #d01e26;
+  color: #FFF;
+  font-size: 20px;
+  padding: 10px 30px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.shuffle:hover {
+  background: #ad323f;
 }
