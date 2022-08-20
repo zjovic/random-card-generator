@@ -69,3 +69,19 @@ body {
 .shuffle:hover {
   background: #ad323f;
 }
+
+.adjust-size {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.adjust-size label {
+  color: #FFF;
+  font-size: 20px;
+  margin: 30px 0 10px;
+}
+
+.adjust-size input {
+  font-size: 30px;
+}
