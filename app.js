@@ -45,7 +45,10 @@ function randomNumber() {
     return number;
 };
 
-function generateCardTemplate({ number, symbol }) {
+function generateCardTemplate() {
+    let number = randomNumber();
+    let symbol = randomSymbol();
+
     $number.innerText = number;
     $symbolTop.innerHTML = symbol; 
     $symbolBottom.innerHTML = symbol; 
@@ -65,8 +68,5 @@ function generateCardTemplate({ number, symbol }) {
 }
 
 function generateCard() {
-    let number = randomNumber();
-    let symbol = randomSymbol();
-
-    generateCardTemplate({ number, symbol });
+    generateCardTemplate();
 }
